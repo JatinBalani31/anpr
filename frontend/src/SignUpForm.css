@@ -1,0 +1,64 @@
+/* LoginSignUpForm.css */
+
+.login-signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-signup-form {
+  width: 350px;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.login-signup-form h2 {
+  margin-bottom: 30px;
+  text-align: center;
+  color: #333;
+}
+
+.login-signup-form input,
+.login-signup-form select {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.login-signup-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-signup-form button:hover {
+  background-color: #0056b3;
+}
+
+.login-signup-form p {
+  text-align: center;
+}
+
+.login-signup-form p button {
+  color: #007bff;
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-signup-form p button:hover {
+  text-decoration: underline;
+}
